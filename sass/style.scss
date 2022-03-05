@@ -4,20 +4,30 @@ $color_de_fondo_oscuro : #181d38;
 $fondo_banner: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7));
 $transicion_banner:opacity .5s ease-out, visibility 0s linear .5s;
 $transicion_mostrar_banner: opacity .5s ease-out, visibility 0s linear 0s;
+$derecha:22.5px;
+$abajo:22.5px;
 
 .fw-medium {
     font-weight: 600 !important;
 }
 
+.active{
+    color: $color_de_fondo;
+}
+
+
+
 .fw-semi-bold {
     font-weight: 700 !important;
 }
 
+/* En este estilo aplicare operaciones*/
+
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: $derecha*2;
+    bottom: $abajo*2;
     z-index: 99;
 }
 

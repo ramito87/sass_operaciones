@@ -2,10 +2,15 @@
   font-weight: 600 !important;
 }
 
+.active {
+  color: #1E766D;
+}
+
 .fw-semi-bold {
   font-weight: 700 !important;
 }
 
+/* En este estilo aplicare operaciones*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -216,8 +221,9 @@
   border-color: #1E766D;
 }
 
-.page-header-electrica {
-  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/electrica_banner.jpg);
+.page-header-nosotros {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/nosotros.jpg);
+  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/nosotros.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,6 +231,7 @@
 }
 
 .page-header-nosotros {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/nosotros.jpg);
   background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/nosotros.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -233,6 +240,7 @@
 }
 
 .page-header-tele {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/tele.jpeg);
   background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/tele.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -241,6 +249,7 @@
 }
 
 .page-header-control {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/control_banner.jpg);
   background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/control_banner.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -248,7 +257,8 @@
   background-attachment: fixed;
 }
 
-.page-header-computo {
+.page-header-electrica {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/computo_banner.jpg);
   background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/computo_banner.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -504,4 +514,4 @@
   padding-right: 0;
   border-right: none;
 }
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=style.css.map */
