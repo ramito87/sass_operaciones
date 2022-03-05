@@ -1,6 +1,4 @@
-/* css personalizado*/
-
-/* generales */
+/********** Template CSS **********/
 :root {
     --primary: #06BBCC;
     --light: #F0FBFC;
@@ -24,7 +22,7 @@
 }
 
 
-/* banner */
+/*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -39,7 +37,7 @@
 }
 
 
-/*botones*/
+/*** Button ***/
 .btn {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -78,7 +76,7 @@
 }
 
 
-/*menu*/
+/*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -153,7 +151,7 @@
 }
 
 
-/*carusel de imagenes*/
+/*** Header carousel ***/
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -223,7 +221,7 @@
 }
 
 
-/*titulo*/
+/*** Section Title ***/
 .section-title {
     position: relative;
     display: inline-block;
@@ -263,7 +261,7 @@
 }
 
 
-/*Servicios*/
+/*** Service ***/
 .service-item {
     background: var(--light);
     transition: .5s;
@@ -283,7 +281,7 @@
 }
 
 
-/*Servicios paginas*/
+/*** Categories & Courses ***/
 .category img,
 .course-item img {
     transition: .5s;
@@ -295,7 +293,7 @@
 }
 
 
-/*Colaboradores*/
+/*** Team ***/
 .team-item img {
     transition: .5s;
 }
@@ -305,7 +303,7 @@
 }
 
 
-/*Clientes*/
+/*** Testimonial ***/
 .testimonial-carousel::before {
     position: absolute;
     content: "";
@@ -378,7 +376,7 @@
 }
 
 
-/* Footer */
+/*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
