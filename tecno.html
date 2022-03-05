@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>BS-TECH</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Icono de barra -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Fuente Nunito de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- fuentes para iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Librerias de animaciones -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!--estilos de boot -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Elemento cargar -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Cargando pagina...</span>
+        </div>
+    </div>
+    <!-- Fin elemento cargar -->
+
+
+    <!-- inicia nav bar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><img src="img/logo.png" alt="" width="50" height="50"
+                    class="d-inline-block align-text-top"></i>BS-TECH</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="nosotros.html" class="nav-item nav-link ">Nosotros</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="tele.html" class="dropdown-item ">Telecomunicaciones</a>
+                        <a href="control.html" class="dropdown-item">Control y automatizacion</a>
+                        <a href="electrica.html" class="dropdown-item">Energia electrica</a>
+                        <a href="tecno.html" class="dropdown-item active">Equipo de tecnologia</a>
+
+                    </div>
+                </div>
+                <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Termina nav bar -->
+
+
+    <!-- Inicia Banner-->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header-tele">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Equipo de Tecnolgia</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Servicios</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Equipo de Tecnologia</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Termina Banner-->
+
+
+    <!-- Inicia categorias -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Servicio</h6>
+                <h1 class="mb-5">Equipo de Tecnologia</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <!--incicia Equipo de cómputo  -->
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="" data-bs-toggle="modal"
+                                data-bs-target="#computo">
+                                <img class="img-fluid" src="img/equipo_computo.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Equipo de cómputo </h5>
+                                </div>
+                            </a>
+
+                        </div>
+                        <!-- Fin Equipo de cómputo  -->
+                        <!--Inicio Modal Equipo de cómputo -->
+                        <div class="modal fade" id="computo" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Equipo de tecnologia </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class=" fadeInUp" data-wow-delay="0.1s">
+                                            <div class="service-item text-center pt-3">
+                                                <div class="p-4">
+                                                    <img class="card-img-top img-fluid mb-3" src="img/equipo_computo2.jpg"
+                                                        alt="" />
+                                                    <h5 class="mb-3">Equipo de computo</h5>
+                                                    <p>Contamos con las mejores marcas líderes en equipos de escritorio,
+                                                        laptops y periféricos a precios competitivos y garantía de
+                                                        satisfacción. Contamos con entrega rápida así como soporte de
+                                                        instalación y funcionamiento</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Equipo de cómputo -->
+                        <!-- inicia Periféricos -->
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="" data-bs-toggle="modal"
+                                data-bs-target="#perifericos">
+                                <img class="img-fluid" src="img/perifericos.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Periféricos</h5>
+                                </div>
+                            </a>
+
+                        </div>
+                        <!--Inicio ModalPeriféricos-->
+                        <div class="modal fade" id="perifericos" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Equipo de tecnologia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class=" fadeInUp" data-wow-delay="0.1s">
+                                            <div class="service-item text-center pt-3">
+                                                <div class="p-4">
+                                                    <img class="card-img-top img-fluid mb-3" src="img/perifericos2.jpg"
+                                                        alt="" />
+                                                    <h5 class="mb-3">Perifericos</h5>
+                                                    <p>Contamos con marcas líderes en periféricos de oficina, entrega
+                                                        rápida, soporte de instalación y funcionamiento, con garantía de
+                                                        satisfacción.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Perifericos -->
+                        <!-- fin Perifericos-->
+                        <!-- inicia Pizarras digitales -->
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="" data-bs-toggle="modal"
+                                data-bs-target="#pizarra">
+                                <img class="img-fluid" src="img/pizarra.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Pizarras digitales</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Inicio Modalredes -->
+                        <div class="modal fade" id="pizarra" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Equipo de tecnologia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class=" fadeInUp" data-wow-delay="0.1s">
+                                            <div class="service-item text-center pt-3">
+                                                <div class="p-4">
+                                                    <img class="card-img-top img-fluid mb-3" src="img/pizarra2.jpg"
+                                                        alt="" />
+                                                    <h5 class="mb-3">Pizarras digitales</h5>
+                                                    <p>Plasma tus ideas en grande para organizarte y explica a tu equipo
+                                                        de trabajo con facilidad con nuestras pizarras digitales. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Pizarras -->
+                        <!-- fin Pizarras -->
+                    </div>
+                </div>
+                <!-- inicia Almacenamiento de información -->
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="" data-bs-toggle="modal"
+                        data-bs-target="#almacenamiento">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/nass.jpg" alt=""
+                            style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                            style="margin:  1px;">
+                            <h5 class="m-0">Almacenamiento de información</h5>
+                        </div>
+                    </a>
+                </div>
+                <!--termina Almacenamiento de información -->
+                <!--Inicio Modal Almacenamiento de información -->
+                <div class="modal fade" id="almacenamiento" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Equipo de tecnologia</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class=" fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item text-center pt-3">
+                                        <div class="p-4">
+                                            <img class="card-img-top img-fluid mb-3" src="img/nass2.jpg" alt="" />
+                                            <h5 class="mb-3">Almacenamiento de información</h5>
+                                            <p>Contamos con unidades de almacenamiento de alta velocidad y calidad para
+                                                ayudarte a ampliar tu espacio de almacenamiento de toda tu información.
+                                                Mantén tu información confidencial segura. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Modal Almacenamiento de información -->
+
+            </div>
+            <div class="row g-3 mt-2">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <!--incicia Respaldo de energia -->
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="" data-bs-toggle="modal"
+                                data-bs-target="#energia">
+                                <img class="img-fluid" src="img/ups.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Respaldo de energia</h5>
+                                </div>
+                            </a>
+
+                        </div>
+                        <!-- Fin Respaldo de energia-->
+                        <!--Inicio Modal Respaldo de energia -->
+                        <div class="modal fade" id="energia" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Equipo de tecnologia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class=" fadeInUp" data-wow-delay="0.1s">
+                                            <div class="service-item text-center pt-3">
+                                                <div class="p-4">
+                                                    <img class="card-img-top img-fluid mb-3" src="img/ups2.jpg"
+                                                        alt="" />
+                                                    <h5 class="mb-3">Energía (UPS, SAID) </h5>
+                                                    <p>Ideal para soluciones problemas de apagones constantes en
+                                                        operaciones prioritarias, o debido a que ya no mantienen la
+                                                        carga necesaria según la normativa. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Respaldo de energia-->
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <!--Inicio Switchess (L2, L3) -->
+                            <a class="position-relative d-block overflow-hidden" href="" data-bs-toggle="modal"
+                                data-bs-target="#desa">
+                                <img class="img-fluid" src="img/switch.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Switchess (L2, L3)</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Inicio Modal Switchess (L2, L3) -->
+                        <div class="modal fade" id="desa" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Equipo de tegnologia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class=" fadeInUp" data-wow-delay="0.1s">
+                                            <div class="service-item text-center pt-3">
+                                                <div class="p-4">
+                                                    <img class="card-img-top img-fluid mb-3" src="img/switch2.jpg"
+                                                        alt="" />
+                                                    <h5 class="mb-3">Switchess (L2, L3)</h5>
+                                                    <p>Nuestro equipo se especializa en atender tus necesidades y
+                                                        apoyarte en todo lo relacionado a redes de telecomunicación,
+                                                        además que contamos con dispositivos de diversos proveedores que
+                                                        facilitarán tus operaciones de manera sencilla y flexible. Te
+                                                        ayudamos a ampliar tu infraestructura operativa y mantener una
+                                                        gestión coordinada y privada. Todo acorde a tus necesidades,
+                                                        garantizado. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Switchess (L2, L3)-->
+                        <!-- inicio Servidores (personalizado) -->
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="" data-bs-toggle="modal"
+                                data-bs-target="#server">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Servidores personalizados</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- termina consultoria -->
+                        <!--Inicio Modal Consultoria -->
+                        <div class="modal fade" id="server" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Equipos de tecnologia</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class=" fadeInUp" data-wow-delay="0.1s">
+                                            <div class="service-item text-center pt-3">
+                                                <div class="p-4">
+                                                    <img class="card-img-top img-fluid mb-3" src="img/cable.jpg"
+                                                        alt="" />
+                                                    <h5 class="mb-3">Servidores personalizados</h5>
+                                                    <p>
+                                                        Desarrollo de servidores especiales para tus operaciones,
+                                                        alineándonos a las normativas y estándares de
+                                                        telecomunicaciones.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Consultoria-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Termina categorias -->
+
+
+
+
+    <!-- Inicia clientes-->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Opiniones</h6>
+                <h1 class="mb-5">Nuestros clientes habaln por nosotros</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Nombre del cliente</h5>
+                    <p>Posicion</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Nombre del cliente</h5>
+                    <p>Posicion</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Nombre del cliente</h5>
+                    <p>Posicion</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Nombre del cliente</h5>
+                    <p>Posicion</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Termina clientes -->
+
+
+
+    <!--Inicia Footer -->
+
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Accesos rapidos</h4>
+                    <a class="btn btn-link" href="">Nosotros</a>
+                    <a class="btn btn-link" href="">Contacto</a>
+                    <a class="btn btn-link" href="">Aviso de privacidad</a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Contacto</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Aqui la direccion</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>55 55 55 55 55</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contacto@bstech.mx</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">BSTECH</a>, Todos los derechos.
+
+                        Diseñado por <a class="border-bottom" href="#">Levaria</a><br><br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin footer -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
