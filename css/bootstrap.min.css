@@ -2860,8 +2860,8 @@ textarea.form-control-lg {
 
 .btn-primary {
     color: #000;
-    background-color: #06BBCC;
-    border-color: #06BBCC
+    background-color: #1E766D;
+    border-color: #1E766D
 }
 
 .btn-primary:hover {
@@ -3748,7 +3748,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #06BBCC
+    background-color: #1E766D
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3953,7 +3953,7 @@ textarea.form-control-lg {
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: #1E766D;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff
 }
@@ -3972,7 +3972,7 @@ textarea.form-control-lg {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #06BBCC
+    background-color: #1E766D
 }
 
 .nav-fill>.nav-link, .nav-fill .nav-item {
@@ -4309,7 +4309,7 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link.active {
-    color: rgba(0, 0, 0, 0.9)
+    color: #1E766D
 }
 
 .navbar-light .navbar-toggler {
@@ -7766,7 +7766,7 @@ textarea.form-control-lg {
 }
 
 .text-primary {
-    color: #06BBCC !important
+    color: #1E766D !important
 }
 
 .text-secondary {
