@@ -11,6 +11,11 @@
   height: 50px;
 }
 
+.spinner-dimen {
+  width: 3em;
+  height: 3em;
+}
+
 .fw-semi-bold {
   font-weight: 700 !important;
 }
@@ -226,10 +231,9 @@
   border-color: #1E766D;
 }
 
-.page-header-nosotros {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/nosotros.jpg);
-  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/nosotros.jpg);
-  background-position: center center;
+.page-header-computo {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/computo_banner.jpg);
+  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/computo_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -263,8 +267,17 @@
 }
 
 .page-header-electrica {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/computo_banner.jpg);
-  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/computo_banner.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/electrica_banner.jpg);
+  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/electrica_banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page-header-contacto {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 29, 56, 0.7)), to(rgba(24, 29, 56, 0.7))), url(../img/contacto_banner.jpg);
+  background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url(../img/contacto_banner.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
